@@ -61,6 +61,9 @@ def extract_featuresets(ticker):
 
     return X, y, df
 
+valuex = 5
+print(x)
+
 def do_ml(ticker):
     X, y, df = extract_featuresets(ticker)
 
